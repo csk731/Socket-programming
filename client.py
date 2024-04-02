@@ -20,7 +20,7 @@ socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 socket.connect((ipaddress, port))
 
 # Create a message to send to the server
-data_to_send = "Chaitanya"
+data_to_send = "Chaitanya Allu"
 
 # Convert string to bytes
 data_in_bytes = bytes(data_to_send, "utf-8")
